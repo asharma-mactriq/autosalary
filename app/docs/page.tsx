@@ -6,7 +6,7 @@ export default function DocsPage() {
   return (
     <div className="m-4 flex flex-col gap-[3rem]">
       <div className="flex flex-col justify-start items-start  gap-[1.4rem] ">
-        <h1 className={title({ color: "#000" })}>How does it work</h1>
+        <h1 className={title()}>How does it work</h1>
       </div>
       <div className="flex flex-col max-w-lg justify-start items-start  gap-[0.4rem] ">
         <div className="">
