@@ -15,8 +15,8 @@ export default function DocsPage() {
         <DynamicTables
           columns={columns}
           rows={rows}
-          header={headers[0].label}
-          employee={employees[0].label}
+          header={headers}
+          employee={employees}
         />
       </div>
       <div className="flex flex-col justify-end items-end  gap-[1.4rem] ">
