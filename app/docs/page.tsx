@@ -21,13 +21,7 @@ export default function DocsPage() {
       </div>
       <div className="flex flex-col justify-end items-end  gap-[1.4rem] ">
         <div className="">
-          <h2
-            className={subtitle({
-              base: "w-full md:w-1/2 text-lg lg:text-xl text-default-600 block max-w-full",
-            })}
-          >
-            Production Entry
-          </h2>
+          <h2 className={subtitle()}>Production Entry</h2>
         </div>
         <Tables />
       </div>
